@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
   s.add_dependency("bindata")
   s.add_dependency("rbzip2")
 
-  s.add_development_dependency("pry")
-  s.add_development_dependency("rspec")
-  s.add_development_dependency("rr")
-  s.add_development_dependency("guard-rspec")
-  s.add_development_dependency("rb-inotify")
+  s.add_development_dependency "pry"
+  s.add_development_dependency "rspec", "~> 2.13.0"
+  s.add_development_dependency "rr"
+  s.add_development_dependency "guard-rspec"
+  s.add_development_dependency "rb-inotify"
 end
